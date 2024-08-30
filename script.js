@@ -61,15 +61,15 @@ function mostraPergunta() {
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
     textoResultado.textContent = "";
-    mostrarAlternativa
+    mostrarAlternativa();
 }
 
  function mostrarAlternativa(){
     for(const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativa=document.createElement ("button");
+        const botaoAlternativa=document.createElement("button");
         botaoAlternativa.textContent =alternativa.texto;
         botaoAlternativa.addEventListener ("click",()=>respostaSelecionada(alternativa));
-        caixaAlternativas.appendChild (botaoAlternativa);
+        caixaAlternativas.appendChild(botaoAlternativa);
         
 
     }
