@@ -6,43 +6,47 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
-        alternativas: [
+        enunciado:Qual é a principal função dos glóbulos vermelhos no sangue?
+
+",
+        alternativas:[
+
+
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Transportar oxigênio para os tecidos",
+                afirmacao: "Os glóbulos vermelhos são essenciais para a oxigenação das células do corpo."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "Combater infecções ",
+                afirmacao: "Glóbulos vermelhos não são responsáveis pela defesa contra infecções; essa é a função dos glóbulos brancos."
             }
 
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "O que caracteriza uma doença autoimune?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: ") O sistema imunológico ataca células saudáveis do próprio corpo",
+                afirmacao: "Doenças autoimunes ocorrem quando o sistema imunológico não consegue distinguir entre células próprias e invasores."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: " A infecção é causada por organismos externos, como bactérias ou vírus.",
+                afirmacao: "Infecções causadas por organismos externos são tratadas de maneira diferente das doenças autoimunes."
             }
 
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual é o propósito da vacinação?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao: "afirmacao5"
+                texto: "Tratar doenças já existentes ",
+                afirmacao: "Vacinas não são usadas para tratar doenças; seu objetivo é prevenir infecções futuras."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao: "afirmacao6"
+                texto: "Estimular o sistema imunológico a prevenir infecções futuras",
+                afirmacao: "Vacinas treinam o sistema imunológico para reconhecer e combater patógenos antes que causem doenças."
             }
         ]
     }
