@@ -6,9 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado:Qual é a principal função dos glóbulos vermelhos no sangue?
-
-",
+        enunciado:"Qual é a principal função dos glóbulos vermelhos no sangue?",
         alternativas:[
 
 
@@ -27,7 +25,7 @@ const perguntas = [
         enunciado: "O que caracteriza uma doença autoimune?",
         alternativas: [
             {
-                texto: ") O sistema imunológico ataca células saudáveis do próprio corpo",
+                texto: "O sistema imunológico ataca células saudáveis do próprio corpo",
                 afirmacao: "Doenças autoimunes ocorrem quando o sistema imunológico não consegue distinguir entre células próprias e invasores."
             },
             {
